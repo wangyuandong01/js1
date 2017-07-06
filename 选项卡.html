@@ -64,13 +64,13 @@
         var oContent = document.getElementById("content");
         var aDiv = oContent.getElementsByTagName("div");
         for(var i=0; i<aLi.length; i++){
-            aLi[i].index = i;//!!!
-            aLi[i].onclick = function(){
+            aLi[i].index = i;//将索引随着序号进行改变
+            aLi[i].onclick = function(){//封装该函数，将点击后把li与div全部清楚
                 for(var i=0; i<aLi.length; i++){
                     aLi[i].className = "";
                     aDiv[i].className = "";
                 }
-                this.className = "selected";
+                this.className = "selected";//将选中的那个，放入被清空的位置，已达到效果
                 aDiv[this.index].className = "selected";
             };
         }
