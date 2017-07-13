@@ -65,7 +65,7 @@
         var aDiv = oContent.getElementsByTagName("div");
         for(var i=0; i<aLi.length; i++){
             aLi[i].index = i;//将索引随着序号进行改变
-            aLi[i].onclick = function(){//封装该函数，将点击后把li与div全部清楚
+             aLi[i].onclick = function(){//封装该函数，将点击后把li与div全部清楚
                 for(var i=0; i<aLi.length; i++){
                     aLi[i].className = "";
                     aDiv[i].className = "";

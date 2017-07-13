@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+<script>
+    function People(name ,age){
+        this.name = name;
+        this.age = age;
+    };
+    People.prototype.weight =function(){
+        alert( this.name+' :what the fox say ?');
+
+    }
+   var people1 = new People ('xiaohua','5');//注意新定义的对象里要有引号；
+    people1.weight();
+
+</script>
+
+</body>
+</html>

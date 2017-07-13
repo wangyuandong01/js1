@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+<script>
+    Cat = function(name){
+        this.name = name;
+    };
+    Cat.prototype.eat = function(){
+        alert(this.name  +'  want to eat food')
+    };
+    var cat1= new Cat('xiaohua');
+    var cat2 = new Cat('lulu');
+     cat2.eat();
+</script>
+
+</body>
+</html>
