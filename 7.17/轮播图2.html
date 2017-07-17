@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <style>
+        *{
+            margin: 0;
+            padding:0;
+        }
+        li{
+            list-style: none;
+        }
+        img{
+            border:0;
+        }
+        #container{
+            position: relative;
+            width: 520px;
+            height: 280px;
+            margin: 100px auto;
+        }
+        #imgs img{
+            display:none;
+
+        }
+        #imgs .selected{
+            display: block;
+        }
+        #nav{
+            position: absolute;
+            right: 10px;
+            bottom: 10px;
+        }
+        #nav li,#arrows div{
+            width: 20px;
+            height: 20px;
+            background: #000000;
+            color: #fff;
+            text-align: center;
+            line-height: 20px;
+            float: left;
+            margin-right: 5px;
+            cursor: pointer;
+        }
+        #nav .selected{
+            background: orange;
+        }
+        #arrows{
+            position: absolute;
+            left: 10px;
+            bottom: 10px;
+        }
+
+    </style>
+</head>
+<body>
+<div id="container">
+    <div id="imgs">
+        <img src="img/1.jpg" alt="" class="selected">
+        <img src="img/2.jpg" alt="">
+        <img src="img/3.jpg" alt="">
+        <img src="img/4.jpg" alt="">
+    </div>
+    <ul id="nav">
+        <li class="selected">1</li>
+        <li>2</li>
+        <li>3</li>
+        <li>4</li>
+    </ul>
+    <div id="arrows">
+        <div id="left">&lt;</div>
+        <div id="right">&gt;</div>
+    </div>
+</div>
+<script src="jquery-1.11.2.js"></script>
+<script>
+    $(function(){
+        var nowIndex = 0;//最开始赋初始值，如果不给值在将鼠标移除后无法开始
+        var timer;//定义时间对象
+        var $lis =  $("#nav li");
+        var $imgs = $("#imgs img");
+      $lis.on("mouseover",function(){//建立一个滑动事件，将索引赋给一个全局对象
+          nowIndex = $(this).index();//通过全局对象返回，当前索引
+          changeImg();//图片变换函数
+      }) ;
+       $("#arrows div").on("click",function(){//对左右符号设置点击事件
+          if($(this).attr("id")=="left")  {//判断当前对象的id是否和left相等，相等就减减
+              nowIndex--;
+              if(nowIndex==-1){//当减到0的下一个时，将最右面的图片索引赋给全局变量
+                  nowIndex = $lis.length-1;
+              }
+          }else{
+              nowIndex++;
+              if(nowIndex==$lis.length){
+                  nowIndex = 0;//当向右边到达最大值是将0赋给当前索引
+              }
+          }
+           changeImg();//变化图片
+       });
+        $("container").hover(function(){//此为hover方法，其有两个参数第一个参数为滑入，清空定时器
+                    clearInterval(timer);
+                },function(){//第二个是滑出，通过定时器自动演示
+                    play();
+                });
+        play();
+        function play(){
+            timer = setInterval(function(){//此时间函数只需用已经定义好的，如在设新的定时器就会混乱
+                $("#right").trigger("click");//时间函数有两个参数，第一个是方法（默认向右自动滑动）用trigger模拟点击事件
+            },1000);//第二个参数为时间单位ms
+
+        }
+        function changeImg(){
+            //找到li，找到当前索引，添加选中的类，找到他们的兄弟，把兄弟的类移除
+            $lis.eq(nowIndex).addClass("selected").siblings().removeClass("selected");
+            $imgs.eq(nowIndex).addClass("selected").siblings().removeClass("selected");
+        }
+    });
+</script>
+</body>
+</html>
