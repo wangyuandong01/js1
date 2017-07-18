@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>左右选择</title>
+    <style>
+      *{
+          margin: 0;
+          padding: 0;
+      }
+      div.centent{
+          float: left;
+          text-align: center;
+          margin: 10px;
+      }
+      span{
+          display: block;
+          margin: 2px 2px;
+          padding: 4px 10px;
+          background: #898989;
+          cursor: pointer;
+          font-size: 12px;
+          color: white;
+      }
+
+    </style>
+</head>
+<body>
+<div class="centent">
+    <select name="multiple" id="select1">
+        <option value="1">选项1</option>
+        <option value="2">选项2</option>
+        <option value="3">选项3</option>
+        <option value="4">选项4</option>
+        <option value="5">选项5</option>
+        <option value="6">选项6</option>
+        <option value="7">选项7</option>
+    </select>
+</div>
+<span id="add">选择添加到右边&gt;&gt;</span>
+<span id="add_all">选择添加到右边&gt;&gt;</span>
+<div class="centent">
+    <select multiple="multiple" id="select2" style="width: 100px;height:160px;">
+        <option value="8">选项8</option>
+    </select>
+    <div>
+        <span id="remove">&lt;&lt;选中删除到左边</span>
+        <span id="remove_all">&lt;&lt;全部删除到左边</span>
+    </div>
+</div>
+<script src="jquery-1.11.2.js"></script>
+<script>
+//    整体思路是
+//      先在表一中任意元素添加一个点击事件，在设定将所有的元素添加到点击事件中
+//      移除同理
+//      再双击事件里，如果绑定select下的子元素，在表二中获取的新元素无法绑定，因为在最初已经确定了option的个数故只能点击8好使
+//      为了解决可以通过绑定父元素来获取新增的元素这样就好使了。
+//    e.target:获取事件源，不支持冒泡
+//    this:指向当前的对象
+//    e.currentTarget：与this等同
+    $(function(){
+    var $select1=$("#select1");
+    var $select2=$("#select2");
+        $("#add").on("click",function(){
+                $("#select1 option:selected").appendTo($select2)//通过select找到当前点击的事件源，且只适用于option
+        });
+        $("#add_all").on("click",function(){
+            $("#select1 option:selected").appendTo($select2)
+        });
+        $("#remove").on("click",function(){
+            $("#select2 option:selected").appendTo($select1)
+        });
+        $("#remove_all").on("click",function(){
+            $("#select2 option:selected").appendTo($select1)
+        });
+        $("#select1").on("dblclick",function(e){//再双击事件中，在表二中新增的事件无法获取，所以通过绑定父元素，获取事件源
+            $(e.target).appendTo($select2)
+        });
+        $("#select2").on("dblclick",function(e){
+            $(e.target).appendTo($select1)
+        });
+    });
+</script>
+
+
+
+
+</body>
+</html>
