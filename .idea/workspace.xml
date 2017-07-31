@@ -2,59 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="40a91c9f-bb12-4419-9d2e-f13d65c0fff4" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/7.24/img/1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/7.24/img/thumbs/1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/7.24/img/10.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/7.24/img/thumbs/10.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/7.24/img/11.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/7.24/img/thumbs/11.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/7.24/img/12.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/7.24/img/thumbs/12.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/7.24/img/13.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/7.24/img/thumbs/13.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/7.24/img/14.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/7.24/img/thumbs/14.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/7.24/img/15.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/7.24/img/thumbs/15.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/7.24/img/16.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/7.24/img/thumbs/16.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/7.24/img/17.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/7.24/img/thumbs/17.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/7.24/img/18.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/7.24/img/thumbs/18.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/7.24/img/19.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/7.24/img/thumbs/19.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/7.24/img/2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/7.24/img/thumbs/2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/7.24/img/20.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/7.24/img/thumbs/20.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/7.24/img/21.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/7.24/img/thumbs/21.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/7.24/img/22.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/7.24/img/thumbs/22.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/7.24/img/23.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/7.24/img/thumbs/23.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/7.24/img/24.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/7.24/img/thumbs/24.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/7.24/img/3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/7.24/img/thumbs/3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/7.24/img/4.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/7.24/img/thumbs/4.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/7.24/img/5.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/7.24/img/thumbs/5.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/7.24/img/6.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/7.24/img/thumbs/6.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/7.24/img/7.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/7.24/img/thumbs/7.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/7.24/img/8.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/7.24/img/thumbs/8.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/7.24/img/9.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/7.24/img/thumbs/9.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/7.24/img/bg.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/7.24/img/next.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/7.24/img/prev.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/旋转木马.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/7.24/旋转的照片墙.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/7.31移动端开发/01.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/7.31移动端开发/01_s.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/7.31移动端开发/01_s_2x.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/7.31移动端开发/demo.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="js1.iws" />
@@ -76,20 +27,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="7.15.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/7.15.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="可编辑表格.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/7.18/可编辑表格.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
+            <state vertical-scroll-proportion="-0.0">
               <caret line="35" column="11" selection-start-line="35" selection-start-column="11" selection-end-line="35" selection-end-column="11" />
               <folding />
             </state>
@@ -136,20 +77,37 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="旋转的照片墙.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="旋转的照片墙.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/7.24/旋转的照片墙.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.09854015">
+            <state vertical-scroll-proportion="0.0">
               <caret line="154" column="23" selection-start-line="154" selection-start-column="23" selection-end-line="154" selection-end-column="23" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="demo.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/7.31移动端开发/demo.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.810219">
+              <caret line="101" column="22" selection-start-line="101" selection-start-column="22" selection-end-line="101" selection-end-column="22" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="01.jpg" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../../fellows14/fellows14/移动端web开发/01.jpg">
+          <provider selected="true" editor-type-id="images">
+            <state />
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="旋转木马.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/旋转木马.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-9.657143">
+            <state vertical-scroll-proportion="0.0">
               <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
               <folding />
             </state>
@@ -211,6 +169,7 @@
         <option value="$PROJECT_DIR$/7.21/旋转六面体.html" />
         <option value="$PROJECT_DIR$/旋转木马.html" />
         <option value="$PROJECT_DIR$/7.24/旋转的照片墙.html" />
+        <option value="$PROJECT_DIR$/7.31移动端开发/demo.html" />
       </list>
     </option>
   </component>
@@ -251,6 +210,7 @@
     </navigator>
     <panes>
       <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -279,18 +239,17 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="7.24" />
+              <option name="myItemId" value="7.31移动端开发" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../fellows14/fellows14" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../fellows14" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="DefaultHtmlFileTemplate" value="Html5" />
     <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
@@ -299,9 +258,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\web\js1\js\7.31移动端开发" />
       <recent name="D:\web\js1\js\7.24" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\web\js1\js\7.31移动端开发" />
       <recent name="D:\web\js1\js1\7.13fuxi" />
     </key>
   </component>
@@ -452,14 +413,20 @@
       <option name="project" value="LOCAL" />
       <updated>1500624339635</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="旋转的照片墙">
+      <created>1500904473405</created>
+      <option name="number" value="00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1500904473405</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.15699404" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.23993808" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
@@ -499,29 +466,14 @@
     <MESSAGE value="7.18学习的练习题" />
     <MESSAGE value="时钟" />
     <MESSAGE value="旋转体" />
-    <option name="LAST_COMMIT_MESSAGE" value="旋转体" />
+    <MESSAGE value="旋转的照片墙" />
+    <option name="LAST_COMMIT_MESSAGE" value="旋转的照片墙" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/7.15.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/7.18/可编辑表格.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="35" column="11" selection-start-line="35" selection-start-column="11" selection-end-line="35" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/7.19/换肤.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -860,7 +812,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/旋转木马.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-9.657143">
+        <state vertical-scroll-proportion="0.0">
           <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
           <folding />
         </state>
@@ -868,8 +820,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/7.24/旋转的照片墙.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.09854015">
+        <state vertical-scroll-proportion="0.0">
           <caret line="154" column="23" selection-start-line="154" selection-start-column="23" selection-end-line="154" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../fellows14/fellows14/移动端web开发/01.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/7.31移动端开发/demo.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.810219">
+          <caret line="101" column="22" selection-start-line="101" selection-start-column="22" selection-end-line="101" selection-end-column="22" />
           <folding />
         </state>
       </provider>
